@@ -1,0 +1,66 @@
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../../images/ferrari.jpg) ;
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: mintcream;
+}
+
+.banner p {
+  color: honeydew;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #bca552;
+  padding: 16px 30px;
+  border-radius: 15px;
+  color: #101219;
+}
+
+.text {
+  text-align: center;
+  font-weight: bold;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.box img {
+  width: 100%;
+  max-height: 125px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #bca552;
+}
+
+.footer A {
+  font-size: 40px;
+  color: black;
+}
